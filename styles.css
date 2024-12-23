@@ -1,0 +1,97 @@
+body,html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputTerminalOne{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    border-radius: 50px;
+}
+
+.inputTerminalTwo{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    position: absolute;
+    margin: 50px;
+    right: 60px;
+    top: 20px;
+}
+
+.generateLeague{
+    width:150px ;
+    height:30px ;
+    border: 1px solid black;
+    position: absolute;
+    top: 90%;
+}
+
+.InputTeamOne{
+    background-color: bisque;
+    border: solid white 1px;
+    position: absolute;
+    top:25%; 
+    margin: 2px;
+    width: 100%;
+    text-align: center;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.InputTeamTwo{
+    background-color: bisque;
+    border: solid white 1px;
+    position: absolute;
+    top: 50%; 
+    margin: 2px;
+    width: 100%;
+    text-align: center;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.InputTeamThree{
+    background-color: bisque;
+    border: solid white 1px;
+    position: absolute;
+    top:75%; 
+    margin: 2px;
+    width: 100%;
+    text-align: center;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.PollOneTitle{
+    background-color: bisque;
+    border: solid white 1px;
+    position: absolute;
+    top:5%; 
+    margin: 2px;
+    width: 100%;
+    text-align: center;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
