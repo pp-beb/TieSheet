@@ -131,7 +131,7 @@ th, td{
     margin: 50px;
     position: absolute;
     left: 60px;
-    top: 50%;
+    top: 54%;
     border-radius: 50px;
     font-style:italic;
     }
@@ -142,7 +142,7 @@ th, td{
     position: absolute;
     margin: 50px;
     right: 60px;
-    top: 50%;
+    top: 54%;
     font-style:italic;
     border-radius: 50px;
 }
@@ -249,12 +249,12 @@ th, td{
 }
 
 #Agoals{
-    width: 20px;
+    width: 40px;
     margin-right: 25px;
 }
 
 #Bgoals{
-    width: 20px;
+    width: 40px;
     margin-left: 25px;
 }
 
@@ -262,4 +262,48 @@ th, td{
 position: absolute;
 top: 30px;
 
+}
+
+#match2det{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Agoals1{
+    width: 40px;
+    margin-right: 25px;
+}
+
+#Bgoals1{
+    width: 40px;
+    margin-left: 25px;
+}
+
+#Sub2{
+position: absolute;
+top: 30px;
+}
+
+#match3det{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Agoals2{
+    width: 40px;
+    margin-right: 25px;
+}
+
+#Bgoals2{
+    width: 40px;
+    margin-left: 25px;
+}
+
+#Sub3{
+position: absolute;
+top: 30px;
 }
