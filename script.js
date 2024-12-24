@@ -471,34 +471,34 @@ for(i=0;i<3;i++){
         }
         if(po1[j]===po1[i])
         {
-            if(gd1[j]<gd1[i]){
-                temp=po1[j];
-                po1[j]=po1[i];
-                po1[i]=temp;
+            if(gd1[j]>gd1[i]){
+                temp=po2[j];
+                po2[j]=po2[i];
+                po2[i]=temp;
 
-                temp=p1[j];
-                p1[j]=p1[i];
-                p1[i]=temp;
+                temp=p2[j];
+                p2[j]=p2[i];
+                p2[i]=temp;
 
-                temp=w1[j];
-                w1[j]=w1[i];
-                w1[i]=temp;
+                temp=w2[j];
+                w2[j]=w2[i];
+                w2[i]=temp;
 
-                temp=l1[j];
-                l1[j]=l1[i];
-                l1[i]=temp;
+                temp=l2[j];
+                l2[j]=l2[i];
+                l2[i]=temp;
 
-                temp=gd1[j];
-                gd1[j]=gd1[i];
-                gd1[i]=temp;
+                temp=gd2[j];
+                gd2[j]=gd2[i];
+                gd2[i]=temp;
 
-                temp=d1[j];
-                d1[j]=d1[i];
-                d1[i]=temp;
+                temp=d2[j];
+                d2[j]=d2[i];
+                d2[i]=temp;
 
-                temp=TeamA[j];
-                TeamA[j]=TeamA[i];
-                TeamA[i]=temp;
+                temp=TeamB[j];
+                TeamB[j]=TeamB[i];
+                TeamB[i]=temp;
             }
 
         }
@@ -512,4 +512,29 @@ function ShowSemi(){
     document.getElementById("Poll1cont").style.visibility="hidden";
     document.getElementById("Poll2cont").style.visibility="hidden";
     document.getElementById("SemiBtn").style.visibility="hidden";
+    document.getElementById("inputTerminalOne").style.visibility="visible";
+    document.getElementById("PollOneTitle").style.visibility="hidden";
+    document.getElementById("inputTerminalTwo").style.visibility="visible";
+    document.getElementById("PollTwoTitle").style.visibility="hidden";
+    document.getElementById("InputTeamOne").innerText=TeamA[0];
+    document.getElementById("InputTeamThree").innerText=TeamB[1];
+    document.getElementById("InputTeamTwo").innerText="vs";
+    document.getElementById("InputTeamOneA").innerText=TeamB[0];
+    document.getElementById("InputTeamThreeA").innerText=TeamA[1];
+    document.getElementById("InputTeamTwoA").innerText="vs";
+    document.getElementById("InputTeamOne").onclick="null";
+    document.getElementById("InputTeamTwo").onclick="null";
+    document.getElementById("InputTeamThree").onclick="null";
+    document.getElementById("InputTeamOneA").onclick="null";
+    document.getElementById("InputTeamTwoA").onclick="null";
+    document.getElementById("InputTeamThreeA").onclick="null";
+    document.getElementById("InputTeamTwo").style.visibility="hidden";
+    document.getElementById("InputTeamTwoA").style.visibility="hidden";
+    document.getElementById("line1").style.visibility="visible";
+    document.getElementById("line2").style.visibility="visible";
+    document.getElementById("line3").style.visibility="visible";
+    document.getElementById("line4").style.visibility="visible";
+    document.getElementById("line5").style.visibility="visible";
+    document.getElementById("line6").style.visibility="visible";
+    document.getElementById("lineF").style.visibility="visible";
 }
