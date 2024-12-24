@@ -121,6 +121,8 @@ body,html{
 
 th, td{
     border: 1px solid black;
+    height: 20px;
+    text-align: center;
     }
 
 .table1{
