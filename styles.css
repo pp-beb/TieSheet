@@ -131,7 +131,7 @@ th, td{
     margin: 50px;
     position: absolute;
     left: 60px;
-    top: 45%;
+    top: 50%;
     border-radius: 50px;
     font-style:italic;
     }
@@ -142,7 +142,124 @@ th, td{
     position: absolute;
     margin: 50px;
     right: 60px;
-    top: 45%;
+    top: 50%;
     font-style:italic;
     border-radius: 50px;
+}
+
+.Poll1cont{
+    visibility: hidden;
+    font-style: italic;
+    border-radius: 40px;
+    height: 300px;
+    display: flex;
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Poll2cont{
+    visibility: hidden;
+    font-style: italic;
+    border-radius: 40px;
+    height: 300px;
+    display: flex;
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    right: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.matchesTitle{
+
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 0%;
+    text-align: center;
+}
+.match1{
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+.match2{
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.match3{
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.matchesTitle2{
+
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 0%;
+    text-align: center;
+}
+.match1a{
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+.match2a{
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.match3a{
+    height: 75px;
+    width: 500px;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#match1det{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Agoals{
+    width: 20px;
+    margin-right: 25px;
+}
+
+#Bgoals{
+    width: 20px;
+    margin-left: 25px;
+}
+
+#Sub1{
+position: absolute;
+top: 30px;
+
 }

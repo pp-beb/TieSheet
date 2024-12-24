@@ -26,15 +26,13 @@ function InputNmae(Element){
 }
 
 function LeagueDraw(){
-    if ([...document.querySelectorAll("div")].some(div => div.innerText === "" || div.innerText === "Add a team")) {
-        alert("Please Enter Valid team names");
-    }
-    else{
         document.getElementById("inputTerminalOne").style.visibility="hidden";
         document.getElementById("inputTerminalTwo").style.visibility="hidden";
         document.getElementById("generateLeague").style.visibility="hidden";
         document.getElementById("table1").style.visibility="visible";
         document.getElementById("table2").style.visibility="visible";
+        document.getElementById("Poll1cont").style.visibility="visible";
+        document.getElementById("Poll2cont").style.visibility="visible";
         document.getElementById("a12").innerText=TeamA[0];
         document.getElementById("a22").innerText=TeamA[1];
         document.getElementById("a32").innerText=TeamA[2];
@@ -77,7 +75,15 @@ function LeagueDraw(){
         document.getElementById("b18").innerText=po2[0];
         document.getElementById("b28").innerText=po2[1];
         document.getElementById("b38").innerText=po2[2];
+
+        document.getElementById("match1txt").innerText=`${TeamA[0]} vs ${TeamA[1]}`;
+        document.getElementById("match2").innerText=`${TeamA[1]} vs ${TeamA[2]}`;
+        document.getElementById("match3").innerText=`${TeamA[0]} vs ${TeamA[2]}`;
+
+        document.getElementById("match1a").innerText=`${TeamB[0]} vs ${TeamB[1]}`;
+        document.getElementById("match2a").innerText=`${TeamB[1]} vs ${TeamB[2]}`;
+        document.getElementById("match3a").innerText=`${TeamB[0]} vs ${TeamB[2]}`;
     }
-}
+
 
 
