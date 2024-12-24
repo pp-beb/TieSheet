@@ -133,10 +133,33 @@
 
 <div class="Poll2cont" id="Poll2cont">
     <div class="matchesTitle2" id="matchesTitle2">Poll 2 matches</div>
-    <div class="match1a" id="match1a">a vs b</div>
-    <div class="match2a" id="match2a">b vs c</div>
-    <div class="match3a" id="match3a">a vs c</div>
+    <div class="match1a" id="match1a">
+        <a id="match1atxt"></a>
+        <form id="match1adet">
+            <input type="number" name="Aagoals" id="Aagoals" required>
+            <input type="number" name="Bagoals" id="Bagoals" required>
+            <button type="submit" id="Sub1a">.</button>
+        </form>
+    </div>
+    <div class="match2a" id="match2a">
+        <a id="match2atxt"></a>
+        <form id="match2adet">
+            <input type="number" name="Aa1goals" id="Aa1goals" required>
+            <input type="number" name="Ba1goals" id="Ba1goals" required>
+            <button type="submit" id="Sub2a">.</button>
+        </form>
+    </div>
+    <div class="match3a" id="match3a">
+        <a id="match3atxt"></a>
+        <form id="match3adet">
+            <input type="number" name="Aa2goals" id="Aa2goals" required>
+            <input type="number" name="Ba2goals" id="Ba2goals" required>
+            <button type="submit" id="Sub3a">.</button>
+        </form>
+    </div>
 </div>
+
+<button class="SemiBtn" id="SemiBtn" onclick="ShowSemi()">SEMI</button>
 
     <script src="script.js"></script>
 </body>

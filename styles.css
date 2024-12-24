@@ -307,3 +307,78 @@ top: 30px;
 position: absolute;
 top: 30px;
 }
+
+#match1adet{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Aagoals{
+    width: 40px;
+    margin-right: 25px;
+}
+
+#Bagoals{
+    width: 40px;
+    margin-left: 25px;
+}
+
+#Sub1a{
+position: absolute;
+top: 30px;
+}
+
+#match2adet{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Aa1goals{
+    width: 40px;
+    margin-right: 25px;
+}
+
+#Ba1goals{
+    width: 40px;
+    margin-left: 25px;
+}
+
+#Sub2a{
+position: absolute;
+top: 30px;
+}
+
+#match3adet{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Aa2goals{
+    width: 40px;
+    margin-right: 25px;
+}
+
+#Ba2goals{
+    width: 40px;
+    margin-left: 25px;
+}
+
+#Sub3a{
+position: absolute;
+top: 30px;
+}
+
+.SemiBtn{visibility: hidden;
+    position: absolute;
+    top: 42%;
+    width: 50px;
+    height: 50px;
+    font-style: italic;
+}
+
